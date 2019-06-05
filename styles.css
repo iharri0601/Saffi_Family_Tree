@@ -4,6 +4,12 @@ h1 {
   border: 15px solid blue;
   margin: 10px;
 }
+h2 {
+  font-family: sans-serif, helvetica;
+  font-size: 45px;
+  border: 15px solid blue;
+  margin: 10px;
+}
 body {
   background: orange;
   color: olive;
@@ -14,4 +20,17 @@ p {
   border: 9px solid green;
   padding: 10px;
   margin: 20px;
+}
+.left {
+  text-align: left;
+}
+
+nav {
+  display: inline-block;
+  width: 40%;
+}
+
+.families div {
+display: inline-block;
+margin-right: 20px;
 }
